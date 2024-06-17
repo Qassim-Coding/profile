@@ -1,0 +1,152 @@
+body{
+  background-color:rgb(239, 229, 216);
+  font-weight: 300;
+}
+h1{
+  color: rgb(63, 107, 140);
+  font-family: Poppins-light;
+  font-size: 50px;
+  line-height: 35px;
+}
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.img-circle {
+  border-radius: 30%;
+}
+.card-white{
+  background-color: rgb(239, 236, 233);
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+.card-Socialmedia
+{
+  background-color: rgb(196, 187, 176);;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+h2{
+  color: aquamarine;
+  font-family: Poppins-bold-italic;
+  font-size: 30px;
+  line-height: 25px;
+}
+h3{
+  color:#454e50;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.emoticone {
+  color:rgb(64, 58, 58);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* espace entre les éléments */
+}
+emoticone:hover {
+  background-color: rgb(124, 136, 143);
+}
+.container-follow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* espace entre les éléments */
+}
+.texte-centré{
+  text-align: center;
+  font-weight: bold;
+}
+.list-inline li {
+  display: inline;
+  list-style: none;
+}
+.list-inline > li > a {
+  text-decoration: none;
+}
+.btn-blue {
+  background-color: #27283b;
+  color: rgb(238, 227, 227);
+  padding: 15px 20px;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 15px;
+  cursor: pointer;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+.fab {
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 250;
+  font-size: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* espace entre les éléments */
+
+}
+.fa-brands{
+  font-family: "Font Awesome 6 Brands";
+  font-weight: 2500;
+  font-size: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* espace entre les éléments */
+
+}
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.raleway <uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
